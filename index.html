@@ -62,19 +62,19 @@
         <button class="house-pin" style="left:53%;top:15%" data-house="1.2" data-status="available" aria-label="Se bolig 1.2">1.2</button>
         <button class="house-pin" style="left:57%;top:20%" data-house="1.1" data-status="available" aria-label="Se bolig 1.1">1.1</button>
         <button class="house-pin" style="left:48%;top:26%" data-house="2.3" data-status="available" aria-label="Se bolig 2.3">2.3</button>
-        <button class="house-pin" style="left:52%;top:30%" data-house="2.2" data-status="reserved" aria-label="Se bolig 2.2">2.2</button>
+        <button class="house-pin" style="left:52%;top:30%" data-house="2.2" data-status="available" aria-label="Se bolig 2.2">2.2</button>
         <button class="house-pin" style="left:56%;top:34%" data-house="2.1" data-status="available" aria-label="Se bolig 2.1">2.1</button>
         <button class="house-pin" style="left:27%;top:28%" data-house="3.4" data-status="available" aria-label="Se bolig 3.4">3.4</button>
         <button class="house-pin" style="left:31%;top:31%" data-house="3.3" data-status="available" aria-label="Se bolig 3.3">3.3</button>
-        <button class="house-pin" style="left:35%;top:34%" data-house="3.2" data-status="rented" aria-label="Se bolig 3.2">3.2</button>
+        <button class="house-pin" style="left:35%;top:34%" data-house="3.2" data-status="available" aria-label="Se bolig 3.2">3.2</button>
         <button class="house-pin" style="left:39%;top:37%" data-house="3.1" data-status="available" aria-label="Se bolig 3.1">3.1</button>
         <button class="house-pin" style="left:20%;top:39%" data-house="4.5" data-status="available" aria-label="Se bolig 4.5">4.5</button>
         <button class="house-pin" style="left:24%;top:42%" data-house="4.4" data-status="available" aria-label="Se bolig 4.4">4.4</button>
         <button class="house-pin" style="left:28%;top:45%" data-house="4.3" data-status="available" aria-label="Se bolig 4.3">4.3</button>
         <button class="house-pin" style="left:32%;top:48%" data-house="4.2" data-status="available" aria-label="Se bolig 4.2">4.2</button>
-        <button class="house-pin" style="left:36%;top:51%" data-house="4.1" data-status="reserved" aria-label="Se bolig 4.1">4.1</button>
+        <button class="house-pin" style="left:36%;top:51%" data-house="4.1" data-status="available" aria-label="Se bolig 4.1">4.1</button>
         <button class="house-pin" style="left:68%;top:50%" data-house="5.3" data-status="available" aria-label="Se bolig 5.3">5.3</button>
-        <button class="house-pin" style="left:69%;top:54%" data-house="5.2" data-status="rented" aria-label="Se bolig 5.2">5.2</button>
+        <button class="house-pin" style="left:69%;top:54%" data-house="5.2" data-status="available" aria-label="Se bolig 5.2">5.2</button>
         <button class="house-pin" style="left:70%;top:58%" data-house="5.1" data-status="available" aria-label="Se bolig 5.1">5.1</button>
         <button class="house-pin" style="left:61%;top:66%" data-house="6.2" data-status="available" aria-label="Se bolig 6.2">6.2</button>
         <button class="house-pin" style="left:65%;top:70%" data-house="6.1" data-status="available" aria-label="Se bolig 6.1">6.1</button>
@@ -95,7 +95,7 @@
       <p class="availability" id="dialog-status">Ledig</p>
       <div class="facts"><div class="fact"><strong id="dialog-area">103 m²</strong><span>Boligareal</span></div><div class="fact"><strong>4</strong><span>Værelser</span></div><div class="fact"><strong>Privat</strong><span>Have og terrasse</span></div><div class="fact"><strong>Mulighed</strong><span>For ladestander</span></div></div>
       <p class="dialog-copy">Et lyst og moderne rækkehus med en gennemtænkt planløsning, åbent køkken-alrum og direkte adgang til egen terrasse og have.</p>
-      <a class="contact" href="mailto:mv@bobedst.nu?subject=Interesse%20i%20bolig">Kontakt os om boligen <span aria-hidden="true">→</span></a>
+      <a class="contact" href="tel:+4558524428" target="_top">Kontakt os om boligen · 58 52 44 28 <span aria-hidden="true">→</span></a>
     </section>
   </div>
 
@@ -106,7 +106,7 @@
       '4.1': [103, '14.100'], '4.2': [99, '13.500'], '4.3': [99, '13.500'], '4.4': [99, '13.500'], '4.5': [103, '14.100'],
       '5.1': [103, '14.100'], '5.2': [99, '13.500'], '5.3': [103, '14.100'], '6.1': [103, '14.100'], '6.2': [103, '14.100']
     };
-    const statuses = { '1.1':'available', '1.2':'available', '2.1':'available', '2.2':'reserved', '2.3':'available', '3.1':'available', '3.2':'rented', '3.3':'available', '3.4':'available', '4.1':'reserved', '4.2':'available', '4.3':'available', '4.4':'available', '4.5':'available', '5.1':'available', '5.2':'rented', '5.3':'available', '6.1':'available', '6.2':'available' };
+    const statuses = { '1.1':'available', '1.2':'available', '2.1':'available', '2.2':'available', '2.3':'available', '3.1':'available', '3.2':'available', '3.3':'available', '3.4':'available', '4.1':'available', '4.2':'available', '4.3':'available', '4.4':'available', '4.5':'available', '5.1':'available', '5.2':'available', '5.3':'available', '6.1':'available', '6.2':'available' };
     const statusLabels = { available:'Ledig', reserved:'Reserveret', rented:'Udlejet' };
     const housePhotos = [
       'd8cde26c-cd14-4021-8999-27943b509932_00001.jpg',
